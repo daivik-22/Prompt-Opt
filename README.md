@@ -17,7 +17,7 @@ PromptOpt is an interactive command-line interface (CLI) tool designed to help y
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone <PromptOpt>
     cd promptopt_project
     ```
 
@@ -28,15 +28,15 @@ PromptOpt is an interactive command-line interface (CLI) tool designed to help y
 
 ## 🔑 OpenAI API Key Setup
 
-To use the OpenAI engine for prompt optimization and creativity scoring, you need an OpenAI API key.
+To use the AI engine (in this case OpenAI) for prompt optimization and creativity scoring, you need an AI API key.
 
-1.  **Get your API Key:** Obtain your API key from the [OpenAI website](https://platform.openai.com/account/api-keys).
+1.  **Get your API Key:** Obtain your API key from the [OpenRouter website](https://openrouter.ai/models).
 
 2.  **Create a `.env` file:** In the root of your project directory (`promptopt_project`), create a file named `.env`.
 
 3.  **Add your API Key to `.env`:** Open the `.env` file and add the following line, replacing `your_actual_openai_api_key_here` with your key:
     ```
-    OPENAI_API_KEY="your_actual_openai_api_key_here"
+    AI_API_KEY="your_actual_ai_api_key_here"
     ```
     **Important:** Do not commit your `.env` file to version control! It contains sensitive information. The `.gitignore` file (which I will create next) will help prevent this.
 
